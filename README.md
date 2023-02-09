@@ -24,4 +24,4 @@ Quick and dirty recursive FTP enumeraton based on file extentions. Takes a .csv 
 
 ## DISCLAIMER
 
-this is my first go project and it worked on my machine and the 2 VM's I set up to test it. YMMV. plans for more features. 
+this is my first go project and it worked on my machine and the 2 VM's I set up to test it. YMMV. plans for more features. Tested with VSFTPD
