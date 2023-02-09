@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"net"
 	"os"
 	"strconv"
 	"strings"
@@ -82,17 +81,6 @@ func printFilePaths(filePaths []string, ipAddress string) {
 			log.Fatal(err)
 		}
 	}
-}
-
-// function to increment IP address
-func inc(ip net.IP) net.IP {
-	for i := len(ip) - 1; i >= 0; i-- {
-		ip[i]++
-		if ip[i] > 0 {
-			break
-		}
-	}
-	return ip
 }
 
 func main() {
