@@ -4,6 +4,14 @@ Quick and dirty recursive FTP enumeraton based on file extentions. Takes a .csv 
 
 *currently only supports anonymous login.*
 
+### Planned features
+
+- [x] File Extentions
+- [ ] Specific file search.
+- [ ] User:Pass support. 
+- [ ] accept IP range, single IP and CSV.
+- [ ] export to csv option.
+
 
 ### Build
 
